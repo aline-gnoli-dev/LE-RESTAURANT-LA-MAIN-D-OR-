@@ -75,3 +75,6 @@ img {
 h1, h2 {
     font-family: "Fredericka the Great", cursive;
 }
+th,td {
+    font-weight: normal;
+}
