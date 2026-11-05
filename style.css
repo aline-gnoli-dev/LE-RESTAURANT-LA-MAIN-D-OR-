@@ -1,0 +1,64 @@
+body {
+    font-family: century schoolbook, sans-serif;
+    background-color: #6b6b6b;
+    background-image: url("fond.png");
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+    color: #FFF4E0;
+}
+header {
+    background-color: #e6e0d8;
+    padding: 20px;
+    text-align: center;
+    font-family: lucida calligraphy, sans-serif;
+    color: rgb(158, 102, 29);
+}
+a {
+    color: rgb(158, 102, 29);
+    text-decoration: none;
+}
+h2 {
+    color : #FFD27A;
+    text-shadow: 2px 2px 4px #000;
+}
+footer {
+    background-color: #e6e0d8;
+    color: rgb(158, 102, 29);
+    padding: 10px;
+    text-align: center;
+}
+nav {
+    background-color: #e6e0d8;
+    padding: 12px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    color: rgb(158, 102, 29);
+}
+nav a {
+    color: rgb(158, 102, 29);
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a:hover {
+    color: rgb(158, 102, 29);
+}
+.rangee {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    gap: 15px;
+}
+.rangee img {
+    width: 250px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.plat {
+    text-align: center;
+}
+
