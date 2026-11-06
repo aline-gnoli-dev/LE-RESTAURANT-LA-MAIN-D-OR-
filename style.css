@@ -44,9 +44,15 @@ nav a {
     color: rgb(158, 102, 29);
     text-decoration: none;
     font-weight: bold;
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: lightyellow;
+    border-radius: 8px;
 }
 nav a:hover {
     color: rgb(158, 102, 29);
+    opacity: 0.8;
 }
 .rangee {
     display: flex;
