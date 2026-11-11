@@ -1,86 +1,65 @@
 body {
-    font-family: century schoolbook, sans-serif;
-    background-color: #6b6b6b;
-    background-image: url("fond.png");
-    background-blend-mode: multiply;
-    background-size: cover;
-    background-position: center top;
-    background-attachment: fixed;
-    color: #FFF4E0;
-    margin: 0;
-    max-width: 100%;
+  font-family: Algerian, sans-serif;
+  background-image: url(téléchargement\ \(5\).jpg);
+  margin: 0;
+  padding: 35px;
 }
 header {
-    background-color: #e6e0d8;
-    padding: 20px;
-    text-align: center;
-    font-family: lucida calligraphy, sans-serif;
-    color: rgb(158, 102, 29);
-}
-a {
-    color: rgb(158, 102, 29);
-    text-decoration: none;
+  background-color:#5b79ad; ;
+  color: #e2dfc4;
+  padding: 20px;
+  text-align: center;
 }
 h2 {
-    color : #FFD27A;
-    text-shadow: 2px 2px 4px #000;
+  color: #000000;
+  text-align: center;
+}
+a {
+  color: #222;
+  text-decoration: none;
 }
 footer {
-    background-color: #e6e0d8;
-    color: rgb(158, 102, 29);
+ background-color:#5b79ad; 
+  color: #e2dfc4;
+  padding: 10px;
+  text-align: center;
+}
+.cartes {
+  display:  flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 20px;
+}
+.carte {
+background-color:#5b79ad;
+  flex: 1 1 200px;
+  border: 6px solid #0b4783;
+  border-radius: 15px;
+  padding: 15px
+
+}
+.menu {
+ background-color:#5b79ad;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 15px;
+  border-radius: 15px;
+}
+@media (max-width: 600px) {
+  .menu {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  .cartes {
+    flex-direction: column;
     padding: 10px;
-    text-align: center;
-}
-nav {
-    background-color: #e6e0d8;
-    padding: 12px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    color: rgb(158, 102, 29);
-}
-nav a {
-    color: rgb(158, 102, 29);
-    text-decoration: none;
-    font-weight: bold;
-    display: inline-block;
-    padding: 10px 20px;
-    margin: 15px;
-    background-color: rgb(235, 235, 197);
-    border-radius: 8px;
-}
-nav a:hover {
-    color: rgb(158, 102, 29);
-    opacity: 0.8;
-}
-.rangee {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 15px;
-    gap: 15px;
-}
-.rangee img {
-    width: 250px;
-    height: 180px;
-    object-fit: cover;
-    border-radius: 10px;
-}
-.plat {
-    text-align: center;
-}
-img {
-    max-width: 100%;
-    height: auto;
-}
-.contenu {
-    width: 90%;
-    max-width: 1000px;
-    margin: 0 auto;
-}
-h1, h2 {
-    font-family: "Fredericka the Great", cursive;
-}
-th,td {
-    font-weight: normal;
+  }
+
+  .carte {
+    flex: 1 1 auto;
+  }
 }
